@@ -1,15 +1,16 @@
-import React from 'react'
-import Navbar from '../components/Navbar.jsx'
-import Hero from '../components/Hero.jsx'
-import LatestCollection from '../components/LatestCollection.jsx'
+import React from "react";
+import Hero from "../components/Hero";
+import LatestCollection from "../components/LatestCollection";
+import BestSeller from "../components/BestSeller";
 
-const home = () => {
+const Home = () => {
   return (
     <div>
       <Hero />
-      <LatestCollection/>
+      <LatestCollection />
+      <BestSeller />
     </div>
-  )
-}
+  );
+};
 
-export default home
+export default Home;
